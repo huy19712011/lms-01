@@ -1,0 +1,35 @@
+[23-Jun-2025 13:10:53 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Jun-2025 13:10:53 UTC] Cron reschedule event error for hook: tutor_once_in_day_run_schedule, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[24-Jun-2025 00:21:06 UTC] Cron unschedule event error for hook: woocommerce_cancel_unpaid_orders, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}
+[24-Jun-2025 00:21:06 UTC] Cron reschedule event error for hook: woocommerce_cleanup_logs, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[24-Jun-2025 00:21:06 UTC] Cron unschedule event error for hook: woocommerce_cleanup_logs, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[24-Jun-2025 00:21:07 UTC] Cron reschedule event error for hook: woocommerce_cleanup_rate_limits, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[24-Jun-2025 15:12:45 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Jun-2025 15:12:46 UTC] Cron reschedule event error for hook: jetpack_clean_nonces, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[24-Jun-2025 15:12:46 UTC] Cron unschedule event error for hook: jetpack_clean_nonces, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[24-Jun-2025 15:12:46 UTC] Cron reschedule event error for hook: wc_admin_process_orders_milestone, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[24-Jun-2025 15:12:46 UTC] Cron unschedule event error for hook: wc_admin_process_orders_milestone, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[24-Jun-2025 15:12:46 UTC] Cron reschedule event error for hook: wc_admin_unsnooze_admin_notes, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[24-Jun-2025 15:12:46 UTC] Cron unschedule event error for hook: wc_admin_unsnooze_admin_notes, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[24-Jun-2025 15:12:46 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[24-Jun-2025 15:12:46 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[24-Jun-2025 15:12:46 UTC] Cron unschedule event error for hook: woocommerce_cancel_unpaid_orders, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}
+[24-Jun-2025 15:12:46 UTC] Cron reschedule event error for hook: woocommerce_marketplace_cron_fetch_promotions, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[24-Jun-2025 15:12:46 UTC] Cron unschedule event error for hook: woocommerce_marketplace_cron_fetch_promotions, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[24-Jun-2025 15:12:47 UTC] Cron reschedule event error for hook: woocommerce_cleanup_rate_limits, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[24-Jun-2025 15:29:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in D:\Projects\wp\lms-01\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 D:\Projects\wp\lms-01\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 D:\Projects\wp\lms-01\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\Projects\wp\lms-01\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Projects\wp\lms-01\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in D:\Projects\wp\lms-01\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[24-Jun-2025 15:33:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in D:\Projects\wp\lms-01\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 D:\Projects\wp\lms-01\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 D:\Projects\wp\lms-01\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\Projects\wp\lms-01\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\Projects\wp\lms-01\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in D:\Projects\wp\lms-01\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351

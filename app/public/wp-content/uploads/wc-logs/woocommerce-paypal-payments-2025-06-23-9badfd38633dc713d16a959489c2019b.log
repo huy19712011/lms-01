@@ -1,0 +1,122 @@
+2025-06-23T09:19:14+00:00 DEBUG #4821 - [New Request] POST /wp-json/wc-admin/settings/payments/suggestion/paypal_full_stack/attach
+2025-06-23T09:19:14+00:00 DEBUG #5038 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-06-23T09:19:14+00:00 DEBUG #4821 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-06-23T09:19:14+00:00 ERROR #5038 - Failed to delete webhooks: [Error] Not Found
+2025-06-23T09:19:14+00:00 ERROR #4821 - Failed to delete webhooks: [Error] Not Found
+2025-06-23T09:19:14+00:00 INFO #5038 - Webhooks deleted.
+2025-06-23T09:19:14+00:00 INFO #4821 - Webhooks deleted.
+2025-06-23T09:19:15+00:00 DEBUG #4821 - POST https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost:10004\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-06-23T09:19:15+00:00 ERROR #4821 - Failed to subscribe webhooks: [Error] Not Found
+2025-06-23T09:19:15+00:00 DEBUG #5038 - POST https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost:10004\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-06-23T09:19:15+00:00 ERROR #5038 - Failed to subscribe webhooks: [Error] Not Found
+2025-06-23T09:19:28+00:00 DEBUG #2871 - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks
+2025-06-23T09:19:28+00:00 DEBUG #2871 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-06-23T09:20:58+00:00 DEBUG #5274 - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link
+2025-06-23T09:20:58+00:00 INFO #5274 - Generating onboarding URL for: production-express_checkout-
+2025-06-23T09:20:59+00:00 DEBUG #5274 - POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"http:\/\/localhost:10004\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1leHByZXNzX2NoZWNrb3V0LSIsInUiOjEsImgiOiIxOWE4YjNhY2FhY2I1ZmY2ZDUzMzU4MmE2MTc4ZWE5MCJ9","return_url_description":"Return to your shop.","show_add_credit_card":false},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","TRACKING_SHIPMENT_READWRITE","BILLING_AGREEMENT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: b2e5f98cf3e1a
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2025-06-23T09:26:24+00:00 DEBUG #2961 - [New Request] POST /wp-json/wc/v3/wc_paypal/authenticate/oauth
+2025-06-23T09:26:24+00:00 INFO #2961 - Attempting OAuth login to PayPal... CONTEXT: {"sandbox":false,"shared_id":"BAAqABkZ6GWNsHLd97VnP5EqHF_3KinJT9PgHzcNRQZTqA5GM50DxxorNjD_a0I9t4qFmU-PGyLTMv4nEI"}
+2025-06-23T09:26:25+00:00 DEBUG #2961 - POST https://api-m.paypal.com/v1/oauth2/token/
+Response Debug ID: 9db22abeef9d6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-06-23T09:26:25+00:00 DEBUG #2961 - GET https://api-m.paypal.com/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/credentials/
+Response Debug ID: 1051fbb8e198f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-06-23T09:26:25+00:00 INFO #2961 - Updating connection details CONTEXT: {"is_sandbox":false,"client_id":"BAAqABkZ6GWNsHLd97VnP5EqHF_3KinJT9PgHzcNRQZTqA5GM50DxxorNjD_a0I9t4qFmU-PGyLTMv4nEI","client_secret":"EGoS3BUIquTipRSnmKRaOq25ohLDFXnO8wAIiPXJyVVWkg5pXQtrqJ8BYfjSU2rYNR8prLwJE0vXbp-n","merchant_id":"SMFJCJYKPELS4","merchant_email":"","merchant_country":"","seller_type":"unknown"}
+2025-06-23T09:26:31+00:00 DEBUG #7677 - [New Request] GET /wp-admin/admin.php
+2025-06-23T09:26:31+00:00 DEBUG #7677 - Validating onboarding ppcpToken: ey...E5MCJ9
+2025-06-23T09:26:31+00:00 INFO #7677 - Validated onboarding ppcpToken: ey...E5MCJ9
+2025-06-23T09:26:31+00:00 INFO #7677 - Extracting connection data from request...
+2025-06-23T09:26:31+00:00 INFO #7677 - Found OAuth merchant data in request CONTEXT: {"merchant_id":"SMFJCJYKPELS4","merchant_email":"huynq1971@gmail.com","seller_type":"business"}
+2025-06-23T09:26:31+00:00 INFO #7677 - Updating connection details CONTEXT: {"is_sandbox":false,"client_id":"BAAqABkZ6GWNsHLd97VnP5EqHF_3KinJT9PgHzcNRQZTqA5GM50DxxorNjD_a0I9t4qFmU-PGyLTMv4nEI","client_secret":"EGoS3BUIquTipRSnmKRaOq25ohLDFXnO8wAIiPXJyVVWkg5pXQtrqJ8BYfjSU2rYNR8prLwJE0vXbp-n","merchant_id":"SMFJCJYKPELS4","merchant_email":"huynq1971@gmail.com","merchant_country":"","seller_type":"business"}
+2025-06-23T09:26:31+00:00 INFO #7677 - Merchant successfully connected to PayPal
+2025-06-23T09:26:31+00:00 INFO #7677 - Calling internal REST endpoint [http://localhost:10004/wp-json/wc/v3/wc_paypal/common/seller-account]
+2025-06-23T09:26:35+00:00 DEBUG #7677 - Finished internal REST call [http://localhost:10004/wp-json/wc/v3/wc_paypal/common/seller-account]
+2025-06-23T09:26:35+00:00 INFO #7677 - Internal REST success! CONTEXT: {"json":{"success":true,"data":{"country":"VN"}}}
+2025-06-23T09:26:35+00:00 INFO #7677 - Flushing API caches...
+2025-06-23T09:26:35+00:00 INFO #7677 - Merchant connected, complete onboarding and set defaults.
+2025-06-23T09:26:36+00:00 DEBUG #7677 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-06-23T09:26:36+00:00 ERROR #7677 - Failed to delete webhooks: [Error] Not Found
+2025-06-23T09:26:36+00:00 INFO #7677 - Webhooks deleted.
+2025-06-23T09:26:37+00:00 DEBUG #7677 - POST https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost:10004\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-06-23T09:26:37+00:00 ERROR #7677 - Failed to subscribe webhooks: [Error] Not Found
