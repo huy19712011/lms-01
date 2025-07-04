@@ -33,3 +33,4 @@ Stack trace:
 #3 D:\Projects\wp\lms-01\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
 #4 {main}
   thrown in D:\Projects\wp\lms-01\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[03-Jul-2025 13:37:39 UTC] Cron unschedule event error for hook: woocommerce_cancel_unpaid_orders, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[]}
